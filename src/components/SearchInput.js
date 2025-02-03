@@ -23,7 +23,7 @@ class SearchInput extends React.Component {
           <div className="ui massive icon input">
             <input
               type="text"
-              placeholder="Search..."
+              placeholder="Enter image name..."
               onChange={(event) => this.setState({ entry: event.target.value })}
               value={this.state.entry}
             />
